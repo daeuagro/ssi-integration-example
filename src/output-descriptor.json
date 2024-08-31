@@ -1,0 +1,73 @@
+{
+    "id": "turist-output",
+    "schema": "turist-output",
+    "display": {
+        "title": {
+            "text": "UNIVERSIDAD AUTÓNOMA DE GUERRERO"
+        },
+        "subtitle": {
+            "text": "Credencial de Alumno"
+        },
+        "description": {
+            "text": "Con tu credencial de alumno puedes vizualizar tus documentos emitidos por esta institución"
+        },
+        "properties": [
+            {
+                "label": "Nombre",
+                "path": [
+                    "$.credentialSubject.name"
+                ],
+                "schema": {
+                    "type": "string"
+                },
+                "fallback": "Name"
+            },
+            {
+                "label": "Número de matricula",
+                "path": [
+                    "$.credentialSubject.matricula"
+                ],
+                "schema": {
+                    "type": "string"
+                },
+                "fallback": "Matricula"
+            },
+            {
+                "label": "Unidad Académica",
+                "path": [
+                    "$.credentialSubject.unidadAcademica"
+                ],
+                "schema": {
+                    "type": "string"
+                },
+                "fallback": "Escuela"
+            },
+            {
+                "label": "Programa Educativo",
+                "path": [
+                    "$.credentialSubject.programaEducativo"
+                ],
+                "schema": {
+                    "type": "string"
+                },
+                "fallback": "Carrera"
+            }
+        ]
+    },
+    "styles": {
+        "thumbnail": {
+            "uri": "https://i.ibb.co/fD0nsxq/logo.png",
+            "alt": "Logo"
+        },
+        "hero": {
+            "uri": "https://i.ibb.co/bHF3g7m/Credencial-Hack-Along-1.png",
+            "alt": "Background"
+        },
+        "background": {
+            "color": "#FFFFFF"
+        },
+        "text": {
+            "color": "#2B2B2D"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+POST http://localhost:3021/credentials HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Rosendo Guzmán Nogueda",
+    "matricula": "19254698",
+    "UuidadAcademica": "Facultad de Ingeniería",
+    "programaEducativo: "Doctorado en Innovación y Cultura Digital",
+    "validFrom": "2024-08-22",
+    "validTo": "2024-08-31"
+}

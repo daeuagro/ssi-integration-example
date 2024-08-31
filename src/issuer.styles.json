@@ -1,0 +1,20 @@
+{
+    "name": "UNIVERSIDAD AUTÓNOMA DE GUERRERO",
+    "styles": {
+        "thumbnail": {
+            "uri": "https://i.ibb.co/fD0nsxq/logo.png",
+            "alt": "Escudo de la Universidad Autónoma de Guerrero"
+        },
+        "hero":{
+            "uri": "https://i.ibb.co/bHF3g7m/Credencial-Hack-Along-1.png",
+            "alt": "Backgroud"
+        },
+        "backgroud":{
+            "color": "#FFFFFF"
+        },
+        "text":{
+            "color": "#2B2B2D"
+        }
+    
+    }
+}
